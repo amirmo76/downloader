@@ -82,7 +82,7 @@ def format_list_entries(filename, username, password):
         time.sleep(130)
 
 
-def start(filename, username, password, min_interval="120", max_interval="180"):
+def start(filename, username, password, min_interval="120", max_interval="150"):
     list_file = open(filename, "r+")
     lines = list_file.readlines()
     list_file.close()
